@@ -1,0 +1,10 @@
+Box = {}
+local this = Box
+local GameObject = UnityEngine.GameObject
+local maxDistance = 5
+
+function this.Awake()
+
+end
+
+function

@@ -1,0 +1,45 @@
+Play = {}
+require('Main')
+local this = Play
+local player
+local rigidbody
+function this.Awake()
+	player = GameObject.Find('Player')
+	rigidbody = player : GetComponent('Rigidbody')
+
+end
+
+function this.Update()
+	if Input.GetKeyDown(KeyCode.Space) then
+	   startTime = Time.time
+		print('haha'..startTime)
+	end
+
+	if Input.GetKeyUp(KeyCode.Space) then
+		endTime = Time.time - startTime
+		print('hehe'..endTime)
+		Play.StartJump(endTime)
+	end
+
+end
+
+function this.StartJump(time)
+	rigidbody : AddForce(Vector3(1, 1, 0) * time * 5, UnityEngine.ForceMode.Impulse)
+end
+
+function this.OnCollisionStay(object)
+	if(object.transform.tag == 'Cube') then
+		print("yes--------")
+		if(object : GetComponent('BoxControl') == nil) then
+			print("add--------")
+			object : AddComponent(typeof(BoxControl))
+		end
+	end
+end
+
+function this.OnCollisionExit(object)
+	if(object.transform.tag == 'Cube') then
+		Destroy()
+	end
+
+end

@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{FA8DB0A7-9BFD-49CE-87C6-947FB4190A1B}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ToLua/Misc/LuaClient.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Managers/UIEvent.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/Login.cs" Line="7" Column="32" />
+      <File FileName="Assets/Scripts/BoxControl.cs" Line="22" Column="1" />
+      <File FileName="Assets/Scripts/Player.cs" Line="20" Column="5" />
+      <File FileName="Assets/Source/Generate/UIEventWrap.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Managers/Util.cs" Line="49" Column="71" />
+      <File FileName="Assets/Source/Generate/UtilWrap.cs" Line="1" Column="1" />
+      <File FileName="Assets/Editor/Custom/CustomSettings.cs" Line="49" Column="46" />
+      <File FileName="Assets/ToLua/Examples/06_LuaCoroutine2/TestCoroutine2.cs" Line="1" Column="1" />
+      <File FileName="Assets/ToLua/Examples/05_LuaCoroutine/TestCoroutine.cs" Line="28" Column="37" />
+      <File FileName="Assets/Source/Generate/UnityEngine_AudioSourceWrap.cs" Line="9" Column="46" />
+      <File FileName="Assets/ToLua/Core/ToLua.cs" Line="2861" Column="1" />
+      <File FileName="Assets/ToLua/Core/LuaDLL.cs" Line="707" Column="10" />
+      <File FileName="Assets/ToLua/Misc/LuaLooper.cs" Line="82" Column="1" />
+      <File FileName="Assets/ToLua/Core/LuaState.cs" Line="756" Column="1" />
+      <File FileName="Assets/ToLua/Examples/Resources/Lua/TestLuaCoroutine.lua.bytes" Line="28" Column="25" />
+      <File FileName="Assets/Source/Generate/UnityEngine_AudioClipWrap.cs" Line="1" Column="1" />
+      <File FileName="Assets/Source/Generate/UnityEngine_WWWWrap.cs" Line="253" Column="1" />
+      <File FileName="Assets/ToLua/Editor/ToLuaExport.cs" Line="2283" Column="10" />
+      <File FileName="Assets/Scripts/Managers/LuaManager.cs" Line="29" Column="1" />
+      <File FileName="Assets/ToLua/Misc/LuaClient.cs" Line="40" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

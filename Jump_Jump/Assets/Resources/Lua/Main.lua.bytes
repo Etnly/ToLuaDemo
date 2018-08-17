@@ -1,0 +1,19 @@
+--主入口函数。从这里开始lua逻辑
+
+
+function Main()
+	GameObject = UnityEngine.GameObject
+	Input = UnityEngine.Input
+	KeyCode = UnityEngine.KeyCode
+	Time = UnityEngine.Time
+	print("logic start")
+end
+
+--场景切换通知
+function OnLevelWasLoaded(level)
+	collectgarbage("collect")
+	Time.timeSinceLevelLoad = 0
+end
+
+function OnApplicationQuit()
+end
